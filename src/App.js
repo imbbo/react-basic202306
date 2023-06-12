@@ -2,6 +2,9 @@
 import './App.css';
 import Hello from './Hello';
 import SayHello from './SayHello';
+import ChangeEvent from './component/cahp01 event/ChangeEvent';
+import ClickEvent from './component/cahp01 event/ClickEvent';
+import SubmitEvent from './component/cahp01 event/SubmitEvent';
 
 
 
@@ -24,7 +27,7 @@ function App() {
   // {} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>
-      { looping() }
+      <SubmitEvent />
     </>
   );
 }
