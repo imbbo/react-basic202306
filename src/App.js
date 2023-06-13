@@ -2,9 +2,11 @@
 import './App.css';
 import Hello from './Hello';
 import SayHello from './SayHello';
-import ChangeEvent from './component/cahp01_event/ChangeEvent';
-import ClickEvent from './component/cahp01_event/ClickEvent';
-import SubmitEvent from './component/cahp01_event/SubmitEvent';
+import ChangeEvent from './component/chap01_event/ChangeEvent';
+import ClickEvent from './component/chap01_event/ClickEvent';
+import SubmitEvent from './component/chap01_event/SubmitEvent';
+import Counter from './component/chap03_state/Counter';
+import NickName from './component/chap03_state/NickName';
 import FoodLIst from './component/chap2 _props/FoodLIst';
 
 
@@ -28,7 +30,7 @@ function App() {
   // {} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>
-      <FoodLIst />
+      <Counter />
     </>
   );
 }
